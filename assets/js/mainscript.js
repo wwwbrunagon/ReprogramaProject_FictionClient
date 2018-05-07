@@ -3,7 +3,7 @@
 var $doc = $('html, body');
 $('.scrollpage').click(function() {
     $doc.animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
+        scrollTop: $( $.attr(this, 'href') ).offset().top -50
     }, 500);
     return false;
 });
