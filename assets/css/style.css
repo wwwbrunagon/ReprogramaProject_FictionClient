@@ -1,0 +1,130 @@
+body{
+margin:0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+p, a {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+h2 {
+text-align: left;
+font-size: 30px;
+}
+
+/* Navigation  */
+
+.topbar ul li{
+    display: inline;
+ }
+ 
+nav.topbar{
+background-color: rgba(0,0,0,.2);
+display: flex;
+justify-content: space-around;
+width: 100%;
+align-items: center;
+position: fixed;
+top: 0;
+}
+ 
+
+.topbar li{
+display: inline;
+padding: 0 20px;
+
+}
+ 
+.topbar li a{
+text-decoration: none;
+list-style-type: none;
+text-transform: uppercase; 
+font-family: 'Asap', sans-serif;
+color: #283233;
+font-size: 14px;
+font-weight: bold;
+}
+
+
+/* Header  */
+header {
+min-height: 100vh;  
+text-align: center;
+display: flex;
+justify-content: space-around;
+align-items: center; 
+}
+
+#titulo{
+    font-size: 50px;
+    color: #283233;
+  }
+
+/* About  */
+.about{
+display: flex;
+justify-content: center;
+padding: 50px 0 80px 0;
+}
+
+.description {
+max-width: 40%;
+}
+
+
+/* The Book  */
+
+#theBook{
+	background-color: #5474a5;
+	padding: 50px 50px;
+	color: white;
+}
+.dfBook{
+	display: flex;
+	justify-content: center;
+	max-width: 75%;
+	margin: 0 auto;
+}
+
+
+/* Testimonials */
+
+.testimonials, .ttl-testimonials{
+	text-align: center;
+	margin: 0 auto;
+	max-width: 70%;
+}
+
+.carouselimg {
+	text-align: center;
+	margin: 0 auto;
+	display: inline-block;
+
+}
+
+
+
+
+.slick-dots {
+    bottom: -50px;
+    }
+
+    .slick-dots li.slick-active > button{
+    	background: red;
+    }
+
+    .slick-dots li button{
+    	background:black;
+    	border-radius: 50px;
+    	width: 10px;
+    	height: 10px;
+      }
