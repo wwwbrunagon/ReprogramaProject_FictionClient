@@ -74,17 +74,48 @@ header {
 min-height: 100vh;  
 text-align: center;
 display:block;
-/*o header precisa ser display:block
-para funcionar o efeito particles */
-/*justify-content: space-around;
-align-items: center; */
+/*to run particles.js
+header = display:block;*/
+
+}
+
+.botao{
+  position: absolute;
+  left: 0;
+  top: 80%;
+  width: 100%;
+  text-align: center;
+}
+
+.botao > a {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  text-shadow: 0px 2px 5px #666666;
+  font-family: Arial;
+  color: #f0e8df;
+  font-size: 15px;
+  background: #a1a327;
+  padding: 14px 23px 14px 23px;
+  text-decoration: none;
+}
+
+.botao>a:hover {
+  background: #dbb296;
+  text-decoration: none;
 }
 
 
-#titulo{
+
+#titulo {
     font-size: 50px;
     color: #283233;
-  }
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;   
+}
 
 /* About  */
 .about{
